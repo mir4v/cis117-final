@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+<!-- my head info for lab 7 -->
+<link rel="stylesheet" href="style.css">
+
+  <meta charset="utf-8">
+  <meta name="description" content="Contact form for visitors to reach me">
+  <meta name="keywords" content="contact, form, CIS 117">
+  <meta name="author" content="Your Name">
+  <title>Contact Me</title>
+<style>
+  header img {
+    display: block;
+    margin: 0 auto;
+  }
+header {
+  text-align: center;
+}
+body {
+  background-color: #fff0f5;  /* very light pink background */
+  color: #222;  /* keeping dark text */
+}
+
+header {
+  padding: 5px 0;   /* fixing space between logo */
+}
+
+header p {
+  margin: 0;        }
+</style>
+
+</head>
+
+<body>
+<header>
+
+  <img src="mira-vazzana-logo.png" alt="Mira Vazzana Logo" width="100">
+  <p>Student • Computer Science • SUNY Brockport</p>
+</header>
+
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="resume.html">Resume</a> |
+    <a href="contact.html">Contact</a> |
+<a href="coursework.html">Coursework</a>
+
+  </nav>
+  <hr>
+
+  <h1>Contact Me</h1>
+  <p>If you’d like to get in touch, please fill out the form below:</p>
+
+  <form action="#" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Clear">
+  </form>
+
+  <!-- End of contact.html content -->
+</body>
+</html>
